@@ -10,7 +10,7 @@ class CartPage{
         this.productQuantity=page.locator('.cart_quantity button');
         this.totalPrice = page.locator('.cart_total p');
     }
-    async verifyCartProducts(){
+    async verifyCart(){
         await expect(this.CartProducts).toBeVisible();
     }
     async getProducts(){
