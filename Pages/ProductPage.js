@@ -30,7 +30,7 @@ class ProductPage{
          return await this.productResults.allTextContents();
 
     }
-    async addProdtctToCart(){
+    async addProdtctToCartPage(){
         await this.addFirstProductToCart.click();
     }
     async viewCart(){
