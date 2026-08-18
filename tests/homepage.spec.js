@@ -14,7 +14,7 @@ const {test,expect} = require('../Fixtures/baseFixture');
 
 // });
 
-test('homepage in application',async({page,homepage})=>{
+test('homepage in automation',async({page,homepage})=>{
     await page.goto('https://automationexercise.com/');
     await homepage.verifyHomepage();
 })
