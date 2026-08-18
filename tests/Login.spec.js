@@ -31,7 +31,7 @@ test(`verify Invalid login for ${user.email}`,async({page})=> {
    
     // Verify Error Message
    
-    await expect(page.getByText( 'Your email or password is incorrect!')).toBeVisible();
+    await expect(page.getByText( 'Your email or password is incorrect in the page!')).toBeVisible();
 
 
 
